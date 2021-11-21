@@ -4,6 +4,16 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 Try running some of the following tasks:
 
+## install packages
+   npm install
+## deploy
+   npm run deploy
+## test
+   npm run test
+
+## verify
+  npx harhat verify --constructor-args arguments.js CONTRACT_ADDRESS
+
 ```shell
 npx hardhat accounts
 npx hardhat compile
