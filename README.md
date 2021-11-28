@@ -12,7 +12,8 @@ Try running some of the following tasks:
    npm run test
 
 ## verify
-  npx harhat verify --constructor-args arguments.js CONTRACT_ADDRESS
+  npx hardhat verify CONTRACT_ADDRESS
+  // npx hardhat verify --constructor-args arguments.js CONTRACT_ADDRESS
 
 ```shell
 npx hardhat accounts
