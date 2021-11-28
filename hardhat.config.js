@@ -29,7 +29,7 @@ module.exports = {
     hardhat: {
     },
     ropsten: {
-      url: "https://ropsten.infura.io/v3/ed7ccfee4b8147daa0b4d5417080d36d",
+      url: "https://ropsten.infura.io/v3/$INFURA_ID",
       accounts: {mnemonic: mnemonic}
     },
     testnet: {
