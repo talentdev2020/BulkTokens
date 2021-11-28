@@ -13,7 +13,10 @@ Try running some of the following tasks:
 
 ## verify
   npx hardhat verify CONTRACT_ADDRESS
-  // npx hardhat verify --constructor-args arguments.js CONTRACT_ADDRESS
+  
+  - if the contract has parameters, 
+   
+    npx hardhat verify --constructor-args arguments.js CONTRACT_ADDRESS
 
 ```shell
 npx hardhat accounts
